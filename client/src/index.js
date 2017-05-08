@@ -8,7 +8,7 @@ import '../build/css/styles.css';
 
 const App=()=>{
     return(
-        <div>Welcome to Hadi React kit</div>
+        <div>Welcome to Hadi Lord is good React kit</div>
     );
 }
 
