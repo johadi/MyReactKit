@@ -44,27 +44,6 @@ const common = {
         extensions: ['*', '.js', '.jsx']
     }
 };
-/*const common = {
- // Entry accepts a path or an object of entries. We'll be using the
- // latter form given it's convenient with more complex configurations.
- entry: {
- app: PATHS.app
- },
- output: {
- path: PATHS.build,
- filename: 'bundle.js'
- },
- module: {
- loaders: [
- {
- test: /\.css$/,
- loaders: ['style', 'css'],
- include: PATHS.app
- }
- ]
- }
- };*/
-// Default configuration
 
 if(TARGET === 'start' || !TARGET) {
     module.exports = merge(common, {
